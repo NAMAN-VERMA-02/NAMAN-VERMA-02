@@ -20,7 +20,7 @@ An evidence-first scam checker for English and Hinglish messages, with a benchma
 QR restaurant ordering with a live kitchen display. Server-side pricing, per-restaurant data scoping, JWT in httpOnly cookies, Zod validation and rate limiting. Analytics come from a single `$facet` aggregation. 50+ API and real-time tests run against in-memory MongoDB in CI.
 
 **[SETU (सेतु)](https://github.com/NAMAN-VERMA-02/setu)** · Next.js, Supabase, Python, FastAPI · [live](https://setu-live-five.vercel.app)
-An alumni network that matches students to seniors who were once in their exact position. Hackathon team project. **My part:** the round-2 federated design, where each college runs its own node holding its people's data and the hub routes only pseudonymous IDs and consent events. A college can disconnect and its data leaves with it.
+An alumni network that matches students to seniors who were once in their exact position. Hackathon team project (6 GitHub contributors). **My part:** I committed the college node (`node/`), the round-2 architecture docs and the privacy probe. The design: each college runs its own node holding its people's data, and the hub routes only pseudonymous IDs and consent events, so a college can disconnect and its data leaves with it.
 
 ### Also built
 
