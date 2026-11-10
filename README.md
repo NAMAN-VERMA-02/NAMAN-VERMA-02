@@ -38,6 +38,7 @@ Pull requests I opened on team and upstream repos (status as of November 2026):
 
 - **SELLABLE** (Harsh Dubey's MCP commerce gateway): [#21](https://github.com/HarshDubey23/SELLABLE/pull/21) plural matching, ruff, inspect CLI · [#22](https://github.com/HarshDubey23/SELLABLE/pull/22) audit log, LlamaIndex example, client config. Both open.
 - **NetraShield / Browser-s-Agent** (SIH team project): [#21](https://github.com/Gauravkkaushal/Browser-s-Agent/pull/21) on-device image redaction, face/QR masking and send guardrails. Open.
+- **Roof** (Mansi Verma's warranty vault, college project): [#1](https://github.com/mansiverma897993/Roof/pull/1) streaming uploads, sign-in lockout, quotas, account controls. Open.
 
 My copies of those repos on this profile are forks used to send these PRs; the projects belong to their teams.
 
