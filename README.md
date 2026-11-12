@@ -34,6 +34,8 @@ Checks MCP servers for protocol conformance bugs and, in an isolated Docker run,
 | [ScamCheck](https://github.com/NAMAN-VERMA-02/scamcheck) | English and Hinglish scam detection | Research, synthetic data only | Baselines B0–B4 with confidence intervals, 14-transform adversarial lab. Reports its failures: the rule engine fell from 9/12 to 4/16 on another author's messages. |
 | [SETU](https://github.com/NAMAN-VERMA-02/setu) | Federated, privacy-preserving alumni network | Hackathon team project, 6 contributors · [live](https://setu-live-five.vercel.app) | **My part:** the college node (`node/`), round-2 architecture docs and the privacy probe. |
 | [TableTap](https://github.com/NAMAN-VERMA-02/tabletap) | QR restaurant ordering with a real-time kitchen display | Solo project · [live](https://tabletap-blush-phi.vercel.app) | 51 API and real-time tests against in-memory MongoDB in CI. |
+| [SELLABLE](https://github.com/HarshDubey23/SELLABLE) | Security gateway and remote MCP server for AI commerce | Team project (Harsh Dubey's repo), I'm a member | **My part:** [#21](https://github.com/HarshDubey23/SELLABLE/pull/21) plural matching, ruff, inspect CLI · [#22](https://github.com/HarshDubey23/SELLABLE/pull/22) audit log, LlamaIndex example, client config. Both open, not merged yet. |
+| [NetraShield](https://github.com/Gauravkkaushal/Browser-s-Agent) | Privacy-preserving browser agent (SIH problem 26171) | SIH team project, I'm a member | **My part:** [#21](https://github.com/Gauravkkaushal/Browser-s-Agent/pull/21) on-device image redaction, face/QR masking, send guardrails. Open, not merged yet. |
 
 ### Engineering interests
 
@@ -45,13 +47,9 @@ Checks MCP servers for protocol conformance bugs and, in an isolated Docker run,
 
 ### Pull requests to other projects
 
-I have opened 4 pull requests on other people's projects. All 4 are **open and awaiting review; none has been merged yet.**
+- **Roof** (Mansi Verma's warranty vault, college project): [#1](https://github.com/mansiverma897993/Roof/pull/1) streaming uploads, sign-in lockout, quotas, account controls. **Open, not merged yet.**
 
-- **SELLABLE** (Harsh Dubey's MCP commerce gateway): [#21](https://github.com/HarshDubey23/SELLABLE/pull/21) plural matching, ruff, inspect CLI · [#22](https://github.com/HarshDubey23/SELLABLE/pull/22) audit log, LlamaIndex example, client config
-- **NetraShield / Browser-s-Agent** (SIH team project): [#21](https://github.com/Gauravkkaushal/Browser-s-Agent/pull/21) on-device image redaction, face/QR masking, send guardrails
-- **Roof** (Mansi Verma's warranty vault, college project): [#1](https://github.com/mansiverma897993/Roof/pull/1) streaming uploads, sign-in lockout, quotas, account controls
-
-My copies of those repos on this profile are forks used to send these PRs; the projects belong to their teams.
+My copies of SELLABLE, Browser-s-Agent and Roof on this profile are forks used to send my PRs; the projects belong to their teams.
 
 ### Engineering principles
 
