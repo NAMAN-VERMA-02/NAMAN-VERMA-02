@@ -34,7 +34,7 @@ Checks MCP servers for protocol conformance bugs and, in an isolated Docker run,
 | [ScamCheck](https://github.com/NAMAN-VERMA-02/scamcheck) | English and Hinglish scam detection | Research, synthetic data only | Baselines B0–B4 with confidence intervals, 14-transform adversarial lab. Reports its failures: the rule engine fell from 9/12 to 4/16 on another author's messages. |
 | [SETU](https://github.com/NAMAN-VERMA-02/setu) | Federated, privacy-preserving alumni network | Hackathon team project, 6 contributors · [live](https://setu-live-five.vercel.app) | **My part:** the college node (`node/`), round-2 architecture docs and the privacy probe. |
 | [TableTap](https://github.com/NAMAN-VERMA-02/tabletap) | QR restaurant ordering with a real-time kitchen display | Solo project · [live](https://tabletap-blush-phi.vercel.app) | 51 API and real-time tests against in-memory MongoDB in CI. |
-| [SELLABLE](https://github.com/HarshDubey23/SELLABLE) | Security gateway and remote MCP server for AI commerce | Team project (Harsh Dubey's repo), I'm a member | **My part:** [#21](https://github.com/HarshDubey23/SELLABLE/pull/21) plural matching, ruff, inspect CLI · [#22](https://github.com/HarshDubey23/SELLABLE/pull/22) audit log, LlamaIndex example, client config. Both open, not merged yet. |
+| [SELLABLE](https://github.com/HarshDubey23/SELLABLE) | Security gateway and remote MCP server for AI commerce | Team project (Harsh Dubey's repo), I'm a member | **My part:** [#21](https://github.com/HarshDubey23/SELLABLE/pull/21) plural matching, ruff, inspect CLI · [#22](https://github.com/HarshDubey23/SELLABLE/pull/22) audit log, LlamaIndex example, client config. #22 merged; #21 open, not merged yet. |
 | [NetraShield](https://github.com/Gauravkkaushal/Browser-s-Agent) | Privacy-preserving browser agent (SIH problem 26171) | SIH team project, I'm a member | **My part:** [#21](https://github.com/Gauravkkaushal/Browser-s-Agent/pull/21) on-device image redaction, face/QR masking, send guardrails. Open, not merged yet. |
 
 ### Engineering interests
@@ -47,7 +47,14 @@ Checks MCP servers for protocol conformance bugs and, in an isolated Docker run,
 
 ### Pull requests to other projects
 
-- **Roof** (Mansi Verma's warranty vault, college project): [#1](https://github.com/mansiverma897993/Roof/pull/1) streaming uploads, sign-in lockout, quotas, account controls. **Open, not merged yet.**
+**Merged**
+- **[docling](https://github.com/docling-project/docling)** (IBM's document conversion library): [#5462](https://github.com/docling-project/docling/pull/5462) drops malformed link targets instead of turning them into broken `https:/` paths in the Markdown, HTML, AsciiDoc and JATS backends ([#5448](https://github.com/docling-project/docling/issues/5448)), through one shared `parse_hyperlink` helper with tests. Approved by a maintainer and merged 2026-11-24.
+- **Roof** (Mansi Verma's warranty vault, college project): [#1](https://github.com/mansiverma897993/Roof/pull/1) streaming uploads, sign-in lockout, quotas, account controls. Merged 2026-11-19.
+- **SELLABLE** (team project I'm a member of): [#22](https://github.com/HarshDubey23/SELLABLE/pull/22) audit log, LlamaIndex example, client config. Merged 2026-11-12.
+
+**Open, not merged yet**
+- **SELLABLE:** [#21](https://github.com/HarshDubey23/SELLABLE/pull/21) plural matching, ruff, inspect CLI.
+- **NetraShield:** [#21](https://github.com/Gauravkkaushal/Browser-s-Agent/pull/21) on-device image redaction, face/QR masking, send guardrails.
 
 My copies of SELLABLE, Browser-s-Agent and Roof on this profile are forks used to send my PRs; the projects belong to their teams.
 
