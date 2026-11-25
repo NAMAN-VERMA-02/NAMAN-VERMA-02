@@ -117,12 +117,9 @@ My copies of SELLABLE, Browser-s-Agent and Roof on this profile are forks used t
 | 🇮🇳 | **Smart India Hackathon: cleared the institute round, 2×** | Team selected at KIET's internal SIH round in two separate years |
 | 💡 | **InnTech: selected at the departmental level** | Project selected in the department round |
 | 🎤 | **CodeX 3.0 Hack Arena (Hackingly × PIET, Oct 2026)** | Built Abhed, an accountability layer for AI agents (PS5: AI Agent Governance), and demoed it on the main stage |
-| 🧠 | **Meta × Scaler OpenEnv Hackathon (2026)** | Built an inventory replenishment environment for reinforcement-learning agents |
-| 🌉 | **SETU hackathon (team of 6)** | Built the federated college node, round-2 architecture docs and the privacy probe |
 | 🇯🇵 | **JLPT N5** | Passed the Japanese-Language Proficiency Test, level N5 |
 | 📜 | **Infosys Springboard (Nov 2025)** | Certifications: Introduction to NoSQL Databases · Spring 5 in 7 Days |
 | 🙋 | **Event volunteer** | Helped run a local event as a volunteer |
-| 🎓 | **B.Tech CS, KIET (2024–2028)** | CGPA 8.3 / 10 |
 
 ### 🗂️ Other projects
 
