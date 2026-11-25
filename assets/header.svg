@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Naman Verma: backend engineering, AI infrastructure, security testing">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="glow" cx="22%" cy="38%" r="65%">
+      <stop offset="0" stop-color="#1f2a3a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#05070a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silver" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#d0d7de"/>
+      <stop offset="1" stop-color="#6e7681"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="nameclip"><text x="48" y="190" class="name">NAMAN VERMA</text></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace}
+    .sans{font-family:"Segoe UI",Inter,"Helvetica Neue",Arial,sans-serif}
+    .name{font-family:"Segoe UI",Inter,"Helvetica Neue",Arial,sans-serif;font-size:92px;font-weight:800;letter-spacing:9px}
+    .pill{fill:#0d1117;stroke:#30363d;stroke-width:1.2}
+    .k{fill:#8b949e;font-size:14px;letter-spacing:1px}
+    .v{fill:#e6edf3;font-size:14px;font-weight:700;letter-spacing:1px}
+    .tag{fill:#e6edf3;font-size:15px;font-weight:600}
+    .dot{animation:pulse 1.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+    .cur{animation:blink 1s steps(1) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .sweep{animation:sweep 6s ease-in-out infinite}
+    @keyframes sweep{0%{transform:translateX(-300px)}55%,100%{transform:translateX(1000px)}}
+    .rise{opacity:0;animation:rise .7s ease-out forwards}
+    @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  </style>
+
+  <rect width="1200" height="400" rx="16" fill="#05070a"/>
+  <rect width="1200" height="400" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="400" rx="16" fill="url(#glow)"/>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="16" fill="none" stroke="#21262d"/>
+
+  <!-- status pills -->
+  <g class="mono">
+    <rect class="pill" x="48" y="28" width="200" height="34" rx="17"/>
+    <circle class="dot" cx="70" cy="45" r="5" fill="#3fb950"/>
+    <text x="84" y="50"><tspan class="k">STATUS: </tspan><tspan class="v">BUILDING</tspan></text>
+
+    <rect class="pill" x="262" y="28" width="275" height="34" rx="17"/>
+    <text x="282" y="50"><tspan class="k">FOCUS: </tspan><tspan class="v">BACKEND · AI INFRA</tspan></text>
+
+    <rect class="pill" x="551" y="28" width="303" height="34" rx="17"/>
+    <text x="571" y="50"><tspan class="k">OSS: </tspan><tspan class="v">MERGED INTO IBM DOCLING</tspan></text>
+
+    <rect class="pill" x="970" y="28" width="182" height="34" rx="17"/>
+    <text x="990" y="50" class="v"><tspan fill="#3fb950">&gt;</tspan> naman.init()<tspan class="cur">_</tspan></text>
+  </g>
+
+  <!-- name with a slow light sweep -->
+  <text x="48" y="190" class="name" fill="url(#silver)">NAMAN VERMA</text>
+  <g clip-path="url(#nameclip)"><rect class="sweep" x="0" y="100" width="220" height="110" fill="url(#shine)"/></g>
+
+  <text x="52" y="232" class="sans rise" style="animation-delay:.2s" fill="#8b949e" font-size="20" font-weight="600" letter-spacing="4">BACKEND ENGINEERING • AI INFRASTRUCTURE • SECURITY TESTING</text>
+  <text x="52" y="266" class="sans rise" style="animation-delay:.4s" fill="#6e7681" font-size="17">I build systems, then test whether they hold up when things fail.</text>
+
+  <!-- tag pills -->
+  <g class="sans">
+    <g class="rise" style="animation-delay:.6s"><rect class="pill" x="48" y="308" width="196" height="46" rx="10"/><text x="68" y="337" class="tag"><tspan fill="#00ADD8">◆</tspan>  Go &amp; fault injection</text></g>
+    <g class="rise" style="animation-delay:.7s"><rect class="pill" x="256" y="308" width="200" height="46" rx="10"/><text x="276" y="337" class="tag"><tspan fill="#8957e5">◆</tspan>  LLM gateways &amp; MCP</text></g>
+    <g class="rise" style="animation-delay:.8s"><rect class="pill" x="468" y="308" width="216" height="46" rx="10"/><text x="488" y="337" class="tag"><tspan fill="#f85149">◆</tspan>  Security &amp; protocol tests</text></g>
+    <g class="rise" style="animation-delay:.9s"><rect class="pill" x="696" y="308" width="200" height="46" rx="10"/><text x="716" y="337" class="tag"><tspan fill="#3fb950">◆</tspan>  Python &amp; FastAPI</text></g>
+    <g class="rise" style="animation-delay:1s"><rect class="pill" x="908" y="308" width="244" height="46" rx="10"/><text x="928" y="337" class="tag"><tspan fill="#58a6ff">◆</tspan>  React, TypeScript, Node</text></g>
+  </g>
+</svg>

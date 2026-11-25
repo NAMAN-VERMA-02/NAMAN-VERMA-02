@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Three small original robot mascots: one building on a laptop, one drinking coffee while tests run, one catching a bug with a magnifying glass">
+  <style>
+    .ink{stroke:#1b1f24;stroke-width:4;stroke-linejoin:round;stroke-linecap:round}
+    .body{fill:#f6f8fa}
+    .lbl{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:16px;fill:#8b949e;letter-spacing:1px}
+    .eye{transform-box:fill-box;transform-origin:center;animation:blink 4s infinite}
+    .e2{animation-delay:1.3s}.e3{animation-delay:2.6s}
+    @keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+    .bob{animation:bob 2.4s ease-in-out infinite}
+    .b2{animation-delay:.8s}.b3{animation-delay:1.6s}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+    .tap{transform-box:fill-box;transform-origin:center bottom;animation:tap .32s ease-in-out infinite alternate}
+    .tap2{animation-delay:.16s}
+    @keyframes tap{to{transform:translateY(-6px)}}
+    .code{animation:code 2.4s steps(4) infinite}
+    @keyframes code{0%{transform:translateY(0)}100%{transform:translateY(-32px)}}
+    .steam{animation:steam 2.2s ease-out infinite;opacity:0}
+    .s2{animation-delay:.7s}.s3{animation-delay:1.4s}
+    @keyframes steam{0%{opacity:0;transform:translateY(6px)}30%{opacity:.8}100%{opacity:0;transform:translateY(-22px)}}
+    .bug{animation:bug 1.6s ease-in-out infinite}
+    @keyframes bug{0%,100%{transform:translateX(0)}50%{transform:translateX(14px)}}
+    .glass{transform-box:fill-box;transform-origin:20% 80%;animation:glass 1.6s ease-in-out infinite}
+    @keyframes glass{0%,100%{transform:rotate(0)}50%{transform:rotate(-8deg) translateX(8px)}}
+    .led{animation:led 1.2s steps(1) infinite}
+    @keyframes led{50%{fill:#30363d}}
+    .tick{opacity:0;animation:tick 3s infinite}
+    @keyframes tick{0%,40%{opacity:0}50%,90%{opacity:1}100%{opacity:0}}
+  </style>
+
+  <!-- ============ 1. the builder ============ -->
+  <g transform="translate(110 40)">
+    <g class="bob">
+      <line x1="90" y1="18" x2="90" y2="0" class="ink"/><circle class="led" cx="90" cy="-4" r="7" fill="#3fb950" stroke="#1b1f24" stroke-width="3"/>
+      <rect x="30" y="18" width="120" height="96" rx="44" class="body ink"/>
+      <rect x="48" y="44" width="84" height="44" rx="20" fill="#0d1117"/>
+      <ellipse class="eye" cx="72" cy="66" rx="7" ry="9" fill="#58a6ff"/>
+      <ellipse class="eye" cx="108" cy="66" rx="7" ry="9" fill="#58a6ff"/>
+      <ellipse cx="44" cy="96" rx="8" ry="5" fill="#ffb3c1" opacity=".7"/><ellipse cx="136" cy="96" rx="8" ry="5" fill="#ffb3c1" opacity=".7"/>
+      <rect x="44" y="108" width="92" height="56" rx="24" class="body ink"/>
+    </g>
+    <!-- laptop -->
+    <path d="M10 200 h170 l-14 -16 h-142 z" fill="#30363d" class="ink"/>
+    <rect x="30" y="118" width="130" height="68" rx="8" fill="#161b22" class="ink" transform="skewX(-6) translate(14 0)"/>
+    <clipPath id="scr"><rect x="46" y="124" width="112" height="56" rx="4"/></clipPath>
+    <g clip-path="url(#scr)"><g class="code">
+      <rect x="54" y="132" width="40" height="5" rx="2" fill="#3fb950"/><rect x="98" y="132" width="30" height="5" rx="2" fill="#58a6ff"/>
+      <rect x="62" y="144" width="56" height="5" rx="2" fill="#8b949e"/>
+      <rect x="62" y="156" width="34" height="5" rx="2" fill="#d2a8ff"/><rect x="100" y="156" width="24" height="5" rx="2" fill="#8b949e"/>
+      <rect x="54" y="168" width="22" height="5" rx="2" fill="#58a6ff"/>
+      <rect x="54" y="180" width="44" height="5" rx="2" fill="#3fb950"/><rect x="102" y="180" width="30" height="5" rx="2" fill="#8b949e"/>
+      <rect x="62" y="192" width="60" height="5" rx="2" fill="#d2a8ff"/>
+      <rect x="62" y="204" width="34" height="5" rx="2" fill="#8b949e"/>
+    </g></g>
+    <ellipse class="tap" cx="66" cy="190" rx="13" ry="9" fill="#f6f8fa" stroke="#1b1f24" stroke-width="4"/>
+    <ellipse class="tap tap2" cx="122" cy="190" rx="13" ry="9" fill="#f6f8fa" stroke="#1b1f24" stroke-width="4"/>
+    <text x="95" y="238" class="lbl" text-anchor="middle">building</text>
+  </g>
+
+  <!-- ============ 2. tests running, coffee in hand ============ -->
+  <g transform="translate(500 40)">
+    <g class="bob b2">
+      <path d="M44 40 q-14 -34 18 -30" class="ink" fill="none"/><path d="M136 40 q14 -34 -18 -30" class="ink" fill="none"/>
+      <rect x="30" y="18" width="120" height="96" rx="44" class="body ink"/>
+      <!-- headphones -->
+      <path d="M34 62 a56 56 0 0 1 112 0" fill="none" stroke="#8957e5" stroke-width="8" stroke-linecap="round"/>
+      <rect x="22" y="54" width="18" height="30" rx="8" fill="#8957e5" stroke="#1b1f24" stroke-width="3"/>
+      <rect x="140" y="54" width="18" height="30" rx="8" fill="#8957e5" stroke="#1b1f24" stroke-width="3"/>
+      <rect x="48" y="44" width="84" height="44" rx="20" fill="#0d1117"/>
+      <path class="eye e2" d="M62 68 q10 -10 20 0" stroke="#d2a8ff" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path class="eye e2" d="M98 68 q10 -10 20 0" stroke="#d2a8ff" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="44" cy="96" rx="8" ry="5" fill="#ffb3c1" opacity=".7"/><ellipse cx="136" cy="96" rx="8" ry="5" fill="#ffb3c1" opacity=".7"/>
+      <rect x="44" y="108" width="92" height="56" rx="24" class="body ink"/>
+      <!-- mug -->
+      <rect x="112" y="118" width="34" height="38" rx="6" fill="#58a6ff" class="ink"/>
+      <path d="M146 126 q14 0 14 12 t-14 12" fill="none" class="ink"/>
+      <path class="steam" d="M120 110 q-6 -8 0 -16" stroke="#8b949e" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path class="steam s2" d="M130 110 q-6 -8 0 -16" stroke="#8b949e" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path class="steam s3" d="M140 110 q-6 -8 0 -16" stroke="#8b949e" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <ellipse cx="118" cy="140" rx="12" ry="9" fill="#f6f8fa" stroke="#1b1f24" stroke-width="4"/>
+    </g>
+    <!-- CI board -->
+    <rect x="-30" y="168" width="240" height="40" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+    <circle cx="-8" cy="188" r="8" fill="#3fb950"/><text x="6" y="193" class="lbl" style="fill:#e6edf3;font-size:14px">ci  passing</text>
+    <text class="tick" x="150" y="194" style="font-family:ui-monospace,Consolas,monospace;font-size:18px;fill:#3fb950;font-weight:700">✓ ✓</text>
+    <text x="90" y="238" class="lbl" text-anchor="middle">testing</text>
+  </g>
+
+  <!-- ============ 3. bug hunter ============ -->
+  <g transform="translate(890 40)">
+    <g class="bob b3">
+      <line x1="90" y1="18" x2="90" y2="0" class="ink"/><circle cx="90" cy="-4" r="7" fill="#f85149" stroke="#1b1f24" stroke-width="3"/>
+      <rect x="30" y="18" width="120" height="96" rx="44" class="body ink"/>
+      <rect x="48" y="44" width="84" height="44" rx="20" fill="#0d1117"/>
+      <ellipse class="eye e3" cx="72" cy="66" rx="9" ry="9" fill="#f0883e"/>
+      <path d="M100 62 h18" stroke="#f0883e" stroke-width="6" stroke-linecap="round"/>
+      <ellipse cx="44" cy="96" rx="8" ry="5" fill="#ffb3c1" opacity=".7"/><ellipse cx="136" cy="96" rx="8" ry="5" fill="#ffb3c1" opacity=".7"/>
+      <rect x="44" y="108" width="92" height="56" rx="24" class="body ink"/>
+      <!-- shield badge -->
+      <path d="M90 118 l16 6 v12 q0 12 -16 18 q-16 -6 -16 -18 v-12 z" fill="#3fb950" stroke="#1b1f24" stroke-width="3"/>
+    </g>
+    <!-- magnifier -->
+    <g class="glass">
+      <line x1="146" y1="150" x2="178" y2="182" stroke="#1b1f24" stroke-width="10" stroke-linecap="round"/>
+      <line x1="146" y1="150" x2="178" y2="182" stroke="#d29922" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="132" cy="136" r="24" fill="#58a6ff" fill-opacity=".18" stroke="#1b1f24" stroke-width="5"/>
+      <circle cx="132" cy="136" r="24" fill="none" stroke="#e6edf3" stroke-width="2"/>
+    </g>
+    <!-- the bug -->
+    <g class="bug">
+      <ellipse cx="200" cy="200" rx="16" ry="12" fill="#f85149" stroke="#1b1f24" stroke-width="3"/>
+      <circle cx="214" cy="196" r="7" fill="#1b1f24"/>
+      <path d="M190 210 l-6 8 M200 212 v9 M210 210 l6 8 M190 190 l-6 -8 M210 190 l6 -8" stroke="#1b1f24" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <text x="100" y="238" class="lbl" text-anchor="middle">breaking things on purpose</text>
+  </g>
+</svg>

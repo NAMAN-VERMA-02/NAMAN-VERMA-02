@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="agentreplay · record, replay, regression-test agents: real terminal output">
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:17px}.l{opacity:0;animation:in .35s ease-out forwards}@keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}.cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
+<rect width="720" height="400" rx="14" fill="#0d1117" stroke="#30363d"/>
+<path d="M0 14a14 14 0 0 1 14-14h692a14 14 0 0 1 14 14v30H0z" fill="#161b22"/>
+<circle cx="26" cy="22" r="6" fill="#f85149"/><circle cx="46" cy="22" r="6" fill="#d29922"/><circle cx="66" cy="22" r="6" fill="#3fb950"/>
+<text x="360.0" y="27" fill="#8b949e" text-anchor="middle" style="font-size:14px">agentreplay · record, replay, regression-test agents</text>
+<text class="l" x="28" y="92" style="animation-delay:0.25s" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">agentreplay replay --cassette baseline.jsonl -- demoagent</tspan></text>
+<text class="l" x="28" y="122" style="animation-delay:0.53s" xml:space="preserve"><tspan fill="#3fb950">SAME</tspan><tspan fill="#8b949e"> (exit 0) — replay, no model or MCP server</tspan></text>
+<text class="l" x="28" y="182" style="animation-delay:1.09s" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">agentreplay test --baseline baseline.jsonl \</tspan></text>
+<text class="l" x="28" y="212" style="animation-delay:1.37s" xml:space="preserve"><tspan fill="#e6edf3">    -- demoagent --model </tspan><tspan fill="#58a6ff">fake/skip-step</tspan></text>
+<text class="l" x="28" y="242" style="animation-delay:1.65s" xml:space="preserve"><tspan fill="#d29922">CHANGED</tspan><tspan fill="#8b949e"> (exit 1) — test</tspan></text>
+<text class="l" x="28" y="272" style="animation-delay:1.93s" xml:space="preserve"><tspan fill="#f85149">  [FAIL] </tspan><tspan fill="#e6edf3">structural tool sequence on mcp-files</tspan></text>
+<text class="l" x="28" y="302" style="animation-delay:2.21s" xml:space="preserve"><tspan fill="#3fb950">  [ok  ] </tspan><tspan fill="#e6edf3">contract required search_files: called</tspan></text>
+<text class="l" x="28" y="332" style="animation-delay:2.49s" xml:space="preserve"><tspan fill="#f85149">  [FAIL] </tspan><tspan fill="#e6edf3">contract required read_file: never called</tspan></text>
+<rect class="cur" x="28" y="344" width="10" height="20" fill="#e6edf3"/>
+<text x="696" y="384" fill="#484f58" text-anchor="end" style="font-size:12px">real output, trimmed</text></svg>

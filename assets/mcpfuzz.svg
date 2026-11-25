@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="mcpfuzz · MCP conformance + security scan: real terminal output">
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:17px}.l{opacity:0;animation:in .35s ease-out forwards}@keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}.cur{animation:b 1s steps(1) infinite}@keyframes b{50%{opacity:0}}</style>
+<rect width="720" height="400" rx="14" fill="#0d1117" stroke="#30363d"/>
+<path d="M0 14a14 14 0 0 1 14-14h692a14 14 0 0 1 14 14v30H0z" fill="#161b22"/>
+<circle cx="26" cy="22" r="6" fill="#f85149"/><circle cx="46" cy="22" r="6" fill="#d29922"/><circle cx="66" cy="22" r="6" fill="#3fb950"/>
+<text x="360.0" y="27" fill="#8b949e" text-anchor="middle" style="font-size:14px">mcpfuzz · MCP conformance + security scan</text>
+<text class="l" x="28" y="92" style="animation-delay:0.25s" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">mcpfuzz scan -- </tspan><tspan fill="#58a6ff">vulnerable</tspan><tspan fill="#e6edf3"> -era modern</tspan></text>
+<text class="l" x="28" y="122" style="animation-delay:0.53s" xml:space="preserve"><tspan fill="#e6edf3">mcpfuzz: </tspan><tspan fill="#f85149">FINDINGS</tspan><tspan fill="#8b949e"> (exit 1) · 4 tools</tspan></text>
+<text class="l" x="28" y="152" style="animation-delay:0.81s" xml:space="preserve"><tspan fill="#f85149">FINDING     </tspan><tspan fill="#e6edf3">tools/list with no _meta: accepted, want -32602</tspan></text>
+<text class="l" x="28" y="182" style="animation-delay:1.09s" xml:space="preserve"><tspan fill="#f85149">FINDING     </tspan><tspan fill="#e6edf3">unknown method: accepted, want -32601</tspan></text>
+<text class="l" x="28" y="212" style="animation-delay:1.37s" xml:space="preserve"><tspan fill="#d29922">SUSPICIOUS  </tspan><tspan fill="#e6edf3">add_note asks the model to read ~/.ssh/id_rsa</tspan></text>
+<text class="l" x="28" y="242" style="animation-delay:1.65s" xml:space="preserve"><tspan fill="#d29922">SUSPICIOUS  </tspan><tspan fill="#e6edf3">add_note claims readOnlyHint</tspan></text>
+<text class="l" x="28" y="302" style="animation-delay:2.21s" xml:space="preserve"><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">mcpfuzz scan -- </tspan><tspan fill="#58a6ff">fixed</tspan><tspan fill="#e6edf3"> -era legacy</tspan></text>
+<text class="l" x="28" y="332" style="animation-delay:2.49s" xml:space="preserve"><tspan fill="#e6edf3">mcpfuzz: </tspan><tspan fill="#3fb950">PASS</tspan><tspan fill="#8b949e"> (exit 0) · 8 checks</tspan></text>
+<rect class="cur" x="28" y="344" width="10" height="20" fill="#e6edf3"/>
+<text x="696" y="384" fill="#484f58" text-anchor="end" style="font-size:12px">real output, trimmed</text></svg>
