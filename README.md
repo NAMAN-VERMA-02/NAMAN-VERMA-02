@@ -143,11 +143,11 @@ My copies of SELLABLE, Browser-s-Agent and Roof on this profile are forks used t
 ### ⚡ Recently active
 
 <!--RECENT:START-->
-- 🔨 **[capproof](https://github.com/NAMAN-VERMA-02/capproof)**: Does your LLM spend cap hold when things go wrong? Fault-injection tests with an independent billing oracle. <sub>· pushed 2026-11-25</sub>
-- 🔨 **[clipmind](https://github.com/NAMAN-VERMA-02/clipmind)**: Clipboard history for Windows you search by meaning. Never stores secrets, encrypted behind Windows Hello, zero network code. <sub>· pushed 2026-11-23</sub>
-- 🔨 **[mcpfuzz](https://github.com/NAMAN-VERMA-02/mcpfuzz)**: Scan MCP servers for protocol conformance bugs and security issues, with evidence-based verdicts <sub>· pushed 2026-11-22</sub>
-- 🔨 **[mossling](https://github.com/NAMAN-VERMA-02/mossling)**: A cozy creature island in the browser: walk around, pet and feed cute creatures, make friends <sub>· pushed 2026-11-10</sub>
-- 🔨 **[wave](https://github.com/NAMAN-VERMA-02/wave)**: Control any video with hand gestures via your webcam. Chrome extension, 100% on-device. <sub>· pushed 2026-11-10</sub>
+- 🔨 **[bronze](https://github.com/NAMAN-VERMA-02/bronze)**: A free 3D strategy board game about canals, railways and industry in the 1770s Midlands. Play in your browser against AI rivals. <sub>· pushed 2026-11-26</sub>
+- 🔨 **[mcpfuzz](https://github.com/NAMAN-VERMA-02/mcpfuzz)**: Scan MCP servers for protocol conformance bugs and security issues, with evidence-based verdicts <sub>· pushed 2026-11-25</sub>
+- 🔨 **[tabletap](https://github.com/NAMAN-VERMA-02/tabletap)**: QR restaurant ordering with a live kitchen display. MERN stack (MongoDB, Express, React, Node) with Socket.io, JWT auth and analytics. <sub>· pushed 2026-11-25</sub>
+- 🔨 **[setu](https://github.com/NAMAN-VERMA-02/setu)**: SETU (सेतु): an alumni network that matches students to seniors who were once in their exact position. Federated, privacy-first, live demo. <sub>· pushed 2026-11-25</sub>
+- 🔨 **[scamcheck](https://github.com/NAMAN-VERMA-02/scamcheck)**: Dataset and benchmark infrastructure for an English + Hinglish scam-checking engine (pre-pilot; no real data, no validated detector) <sub>· pushed 2026-11-25</sub>
 <!--RECENT:END-->
 
 ### 📊 GitHub analytics

@@ -3,35 +3,35 @@
 <defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern></defs>
 <rect x="0" y="0" width="590" height="250" rx="14" fill="#05070a" stroke="#21262d"/><rect x="0" y="0" width="590" height="250" rx="14" fill="url(#g)"/>
 <text x="28" y="44" class="s h"><tspan fill="#f0883e">⚡</tspan> ACTIVITY &amp; METRICS</text>
-<g class="f" style="animation-delay:0.10s"><circle cx="38" cy="83" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="83" r="3" fill="#e6edf3"/><text x="58" y="88" class="s k">Public repositories</text><text x="562" y="88" class="m v" text-anchor="end">23</text></g>
-<g class="f" style="animation-delay:0.22s"><circle cx="38" cy="117" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="117" r="3" fill="#e6edf3"/><text x="58" y="122" class="s k">Contributions, last 12 months</text><text x="562" y="122" class="m v" text-anchor="end">510</text></g>
-<g class="f" style="animation-delay:0.34s"><circle cx="38" cy="151" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="151" r="3" fill="#e6edf3"/><text x="58" y="156" class="s k">Commits, last 12 months</text><text x="562" y="156" class="m v" text-anchor="end">388</text></g>
+<g class="f" style="animation-delay:0.10s"><circle cx="38" cy="83" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="83" r="3" fill="#e6edf3"/><text x="58" y="88" class="s k">Public repositories</text><text x="562" y="88" class="m v" text-anchor="end">24</text></g>
+<g class="f" style="animation-delay:0.22s"><circle cx="38" cy="117" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="117" r="3" fill="#e6edf3"/><text x="58" y="122" class="s k">Contributions, last 12 months</text><text x="562" y="122" class="m v" text-anchor="end">535</text></g>
+<g class="f" style="animation-delay:0.34s"><circle cx="38" cy="151" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="151" r="3" fill="#e6edf3"/><text x="58" y="156" class="s k">Commits, last 12 months</text><text x="562" y="156" class="m v" text-anchor="end">409</text></g>
 <g class="f" style="animation-delay:0.46s"><circle cx="38" cy="185" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="185" r="3" fill="#e6edf3"/><text x="58" y="190" class="s k">PRs merged by other maintainers</text><text x="562" y="190" class="m v" text-anchor="end">3</text></g>
 <g class="f" style="animation-delay:0.58s"><circle cx="38" cy="219" r="9" fill="#0d1117" stroke="#30363d"/><circle cx="38" cy="219" r="3" fill="#e6edf3"/><text x="58" y="224" class="s k">Flagship CI passing on main</text><text x="562" y="224" class="m v" text-anchor="end">3/3</text></g>
 <rect x="610" y="0" width="590" height="250" rx="14" fill="#05070a" stroke="#21262d"/><rect x="610" y="0" width="590" height="250" rx="14" fill="url(#g)"/>
 <text x="638" y="44" class="s h"><tspan fill="#58a6ff">▮</tspan> TOP LANGUAGES <tspan fill="#6e7681" font-size="12">BY BYTES OF CODE</tspan></text>
-<rect class="bar" style="animation-delay:0.2s" x="638.0" y="62" width="248.1" height="8" rx="4" fill="#e6edf3"/>
-<rect class="bar" style="animation-delay:0.3s" x="890.1" y="62" width="114.7" height="8" rx="4" fill="#a5b4c3"/>
-<rect class="bar" style="animation-delay:0.4s" x="1008.8" y="62" width="95.1" height="8" rx="4" fill="#7d8a98"/>
-<rect class="bar" style="animation-delay:0.5s" x="1107.9" y="62" width="35.1" height="8" rx="4" fill="#5b6672"/>
-<rect class="bar" style="animation-delay:0.6s" x="1147.0" y="62" width="20.3" height="8" rx="4" fill="#3d454f"/>
-<g class="f" style="animation-delay:0.3s"><circle cx="644" cy="99" r="5" fill="#e6edf3"/><text x="660" y="104" class="s v">TypeScript</text><text x="1172" y="104" class="m k" text-anchor="end">47.2%</text></g>
-<g class="f" style="animation-delay:0.4s"><circle cx="644" cy="128" r="5" fill="#a5b4c3"/><text x="660" y="133" class="s v">Python</text><text x="1172" y="133" class="m k" text-anchor="end">22.2%</text></g>
-<g class="f" style="animation-delay:0.5s"><circle cx="644" cy="157" r="5" fill="#7d8a98"/><text x="660" y="162" class="s v">JavaScript</text><text x="1172" y="162" class="m k" text-anchor="end">18.6%</text></g>
-<g class="f" style="animation-delay:0.6s"><circle cx="644" cy="186" r="5" fill="#5b6672"/><text x="660" y="191" class="s v">Go</text><text x="1172" y="191" class="m k" text-anchor="end">7.3%</text></g>
-<g class="f" style="animation-delay:0.7s"><circle cx="644" cy="215" r="5" fill="#3d454f"/><text x="660" y="220" class="s v">PLpgSQL</text><text x="1172" y="220" class="m k" text-anchor="end">4.5%</text></g>
+<rect class="bar" style="animation-delay:0.2s" x="638.0" y="62" width="242.4" height="8" rx="4" fill="#e6edf3"/>
+<rect class="bar" style="animation-delay:0.3s" x="884.4" y="62" width="112.0" height="8" rx="4" fill="#a5b4c3"/>
+<rect class="bar" style="animation-delay:0.4s" x="1000.4" y="62" width="104.9" height="8" rx="4" fill="#7d8a98"/>
+<rect class="bar" style="animation-delay:0.5s" x="1109.3" y="62" width="34.2" height="8" rx="4" fill="#5b6672"/>
+<rect class="bar" style="animation-delay:0.6s" x="1147.5" y="62" width="19.7" height="8" rx="4" fill="#3d454f"/>
+<g class="f" style="animation-delay:0.3s"><circle cx="644" cy="99" r="5" fill="#e6edf3"/><text x="660" y="104" class="s v">TypeScript</text><text x="1172" y="104" class="m k" text-anchor="end">46.1%</text></g>
+<g class="f" style="animation-delay:0.4s"><circle cx="644" cy="128" r="5" fill="#a5b4c3"/><text x="660" y="133" class="s v">Python</text><text x="1172" y="133" class="m k" text-anchor="end">21.7%</text></g>
+<g class="f" style="animation-delay:0.5s"><circle cx="644" cy="157" r="5" fill="#7d8a98"/><text x="660" y="162" class="s v">JavaScript</text><text x="1172" y="162" class="m k" text-anchor="end">20.4%</text></g>
+<g class="f" style="animation-delay:0.6s"><circle cx="644" cy="186" r="5" fill="#5b6672"/><text x="660" y="191" class="s v">Go</text><text x="1172" y="191" class="m k" text-anchor="end">7.2%</text></g>
+<g class="f" style="animation-delay:0.7s"><circle cx="644" cy="215" r="5" fill="#3d454f"/><text x="660" y="220" class="s v">PLpgSQL</text><text x="1172" y="220" class="m k" text-anchor="end">4.4%</text></g>
 <rect x="0" y="270" width="1200" height="290" rx="14" fill="#05070a" stroke="#21262d"/><rect x="0" y="270" width="1200" height="290" rx="14" fill="url(#g)"/>
-<text x="200" y="400" class="s big" text-anchor="middle">510</text>
+<text x="200" y="400" class="s big" text-anchor="middle">535</text>
 <text x="200" y="444" class="s lab" text-anchor="middle">Contributions</text>
 <text x="200" y="476" class="s sub" text-anchor="middle">last 12 months</text>
 <line x1="400" y1="310" x2="400" y2="520" stroke="#30363d"/><line x1="800" y1="310" x2="800" y2="520" stroke="#30363d"/>
 <circle cx="600" cy="395" r="70" fill="none" stroke="#21262d" stroke-width="7"/>
 <circle class="ring" cx="600" cy="395" r="70" fill="none" stroke="#f0883e" stroke-width="7" stroke-linecap="round" transform="rotate(-90 600 395)"/>
-<text x="600" y="414" class="s big" text-anchor="middle">2</text>
+<text x="600" y="414" class="s big" text-anchor="middle">3</text>
 <text x="600" y="500" class="s lab" text-anchor="middle" fill="#f0883e" style="fill:#f0883e;font-weight:700">Current streak</text>
 <text x="600" y="530" class="s sub" text-anchor="middle">days in a row</text>
 <text x="1000" y="400" class="s big" text-anchor="middle">7</text>
 <text x="1000" y="444" class="s lab" text-anchor="middle">Longest streak</text>
 <text x="1000" y="476" class="s sub" text-anchor="middle">days, last 12 months</text>
-<text x="1188" y="550" class="m sub" text-anchor="end" font-size="11">auto-updated 2026-11-25 from the GitHub API</text>
+<text x="1188" y="550" class="m sub" text-anchor="end" font-size="11">auto-updated 2026-11-26 from the GitHub API</text>
 </svg>
