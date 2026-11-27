@@ -143,11 +143,11 @@ My copies of SELLABLE, Browser-s-Agent and Roof on this profile are forks used t
 ### ⚡ Recently active
 
 <!--RECENT:START-->
+- 🔨 **[tokentax](https://github.com/NAMAN-VERMA-02/tokentax)**: How many more tokens do Indian languages cost than English? Measured across 8 LLM tokenizers on FLORES-200. <sub>· pushed 2026-11-27</sub>
 - 🔨 **[bronze](https://github.com/NAMAN-VERMA-02/bronze)**: A free 3D strategy board game about canals, railways and industry in the 1770s Midlands. Play in your browser against AI rivals. <sub>· pushed 2026-11-26</sub>
 - 🔨 **[mcpfuzz](https://github.com/NAMAN-VERMA-02/mcpfuzz)**: Scan MCP servers for protocol conformance bugs and security issues, with evidence-based verdicts <sub>· pushed 2026-11-25</sub>
 - 🔨 **[tabletap](https://github.com/NAMAN-VERMA-02/tabletap)**: QR restaurant ordering with a live kitchen display. MERN stack (MongoDB, Express, React, Node) with Socket.io, JWT auth and analytics. <sub>· pushed 2026-11-25</sub>
 - 🔨 **[setu](https://github.com/NAMAN-VERMA-02/setu)**: SETU (सेतु): an alumni network that matches students to seniors who were once in their exact position. Federated, privacy-first, live demo. <sub>· pushed 2026-11-25</sub>
-- 🔨 **[scamcheck](https://github.com/NAMAN-VERMA-02/scamcheck)**: Dataset and benchmark infrastructure for an English + Hinglish scam-checking engine (pre-pilot; no real data, no validated detector) <sub>· pushed 2026-11-25</sub>
 <!--RECENT:END-->
 
 ### 📊 GitHub analytics
